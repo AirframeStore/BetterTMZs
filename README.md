@@ -5,7 +5,8 @@
 >This is a work in progress.
 
 # Introduction
-The .dfg config file can be loaded into a Dynon Skyview Display Device to modify user settings and how the screen renders different airspaces on the map. The map rendering options include border colors, line widths and dashes/ticks on the borders, fill colors and label colors.
+The .dfg config file can be loaded into a Dynon Skyview Display Device to modify user settings and how the screen renders different airspaces on the map. The map rendering options include border colors, line widths and dashes/ticks on the borders, fill colors and label colors.  
+The "EuropeanStyle_Airframe.dfg" is intended to visualize TMZs as black dashed outlines.  
 
 # Airspace Visualization
 The entire airspace settings inside the *.dfg file are contained inside the curly braces of  
