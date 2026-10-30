@@ -1,11 +1,11 @@
 >[!IMPORTANT]
->This is NO official guide published by Dynon, EasyVFR or other official sources. This is meerly a collection of trial and error results intended to help those, that want to taylor the SkyView nav map to their needs. It is partially derived from the dfg file publicly available on the [EasyVFR website](https://support.easyvfr4.aero/help/european-map-styling-for-dynon-skyview) and will be updated in the future, once new things have been tried out.
+>This is NO official guide published by Dynon, EasyVFR or other official sources. This is meerly a collection of trial and error results intended to help those, that want to taylor the SkyView™ nav map to their needs. It is partially derived from the dfg file publicly available on the [EasyVFR website](https://support.easyvfr4.aero/help/european-map-styling-for-dynon-skyview) and will be updated in the future, once new things have been tried out.
 
 >[!NOTE]
 >This is a work in progress.
 
 # Introduction
-The .dfg config file can be loaded into a Dynon Skyview Display Device to modify user settings and how the screen renders different airspaces on the map. The map rendering options include border colors, line widths and dashes/ticks on the borders, fill colors and label colors.  
+The .dfg config file can be loaded into a Dynon Skyview™ Display Device to modify user settings and how the screen renders different airspaces on the map. The map rendering options include border colors, line widths and dashes/ticks on the borders, fill colors and label colors.  
 The "EuropeanStyle_Airframe.dfg" is intended to visualize TMZs as black dashed outlines.  
 
 # Airspace Visualization
@@ -91,3 +91,6 @@ is a filled airspace, such as a CTR and RMZ in the european style maps.
 `color2` is the text color, in which altitude constraints are shown  
 `width0` is the border width  
 ### MAP_BLING_DRAW_STYLE_FRAG_SHADER
+  
+# TMZ Visualization
+Dynon Skyview™ does not know Transponder Mandatory Zones (TMZs) as they are implemented e.g. in German Airspace. TMZs are usually plotted as a black dashed outline. Since Airspaces categorized as TMZs are currently not rendered on the Skyview™ map, PocketFMS Data was modified to categorize TMZs as "unknown alert area". The "EuropeanStyle_Airframe.dfg" uses this reclassification and renders all unknown alert airspaces with black, dashed line outline.  
