@@ -208,17 +208,17 @@ map_bling={
 		style=MAP_BLING_DRAW_STYLE_SOLID_TICKS
 		}
 	unknown_alert2={
-		color0=FF5A01FF
-		color1=FF5A01FF
+		color0=000000FF
+		color1=303030FF
 		color2=FF5A01FF
 		color3=FFFFFFFF
 		width0=2
 		width1=4
 		width2=6
-		cycle=20
-		fraction=0.2
+		cycle=10
+		fraction=0.7
 		outline=0
-		style=MAP_BLING_DRAW_STYLE_SOLID
+		style=MAP_BLING_DRAW_STYLE_SOLID_FADE
 		}
 	training={
 		color0=19D82AFF
